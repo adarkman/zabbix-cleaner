@@ -63,7 +63,6 @@ $DB = Mysql2::Client.new :host=>$DB_HOST, :database=>'zabbix', :username=>$DB_US
 clear_table $DB, "history"
 clear_table $DB, "history_uint"
 clear_table $DB, "history_str"
-clear_table $DB, "history_uint"
 clear_table $DB, "history_text"
 clear_table $DB, "history_log"
 
